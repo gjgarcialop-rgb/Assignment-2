@@ -1,0 +1,25 @@
+
+
+
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: peachpuff;
+    border : 2px solid black;
+    
+
+}
