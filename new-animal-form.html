@@ -15,7 +15,27 @@
             <a href="new-animal-form.html">New Animal Form</a>
         </nav>
 
+        <h1 style="text-align:center;">Add a New Animal!</h1>
 
-        
+    <form class="animal-form">
+       <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter animal name" required>
+
+        <label for="type">Animal Type</label>
+        <input type="text" id="type" placeholder="Enter animal species" required>
+
+        <label for="dob">Date of Birth</label>
+        <input type="text" id="dob" placeholder="mm/dd/yyyy" required>
+
+        <label for="image">Image URL</label>
+        <input type="url" id="image" placeholder="Paste image URL" required>
+
+        <label for="description">Description</label>
+        <textarea id="description" placeholder="Describe the animal" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
 </body>
 </html>
